@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4664ebc-f0a8-431f-abf5-fcaa8441a2ad" name="Default Changelist" comment="" />
+    <list default="true" id="d4664ebc-f0a8-431f-abf5-fcaa8441a2ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brascch/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/brascch/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/static/website/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="462">
               <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/brascch/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding>
+                <element signature="e#33#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -41,7 +59,6 @@
         <option value="$PROJECT_DIR$/website/templates/website/registration/login.html" />
         <option value="$PROJECT_DIR$/brascch/website/urls.py" />
         <option value="$PROJECT_DIR$/forms.py" />
-        <option value="$PROJECT_DIR$/brascch/urls.py" />
         <option value="$PROJECT_DIR$/website/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/website/views.py" />
         <option value="$PROJECT_DIR$/website/urls.py" />
@@ -50,6 +67,7 @@
         <option value="$PROJECT_DIR$/website/templates/website/upload_models.html" />
         <option value="$PROJECT_DIR$/website/templates/website/models_list.html" />
         <option value="$PROJECT_DIR$/website/static/website/css/base.css" />
+        <option value="$PROJECT_DIR$/brascch/urls.py" />
       </list>
     </option>
   </component>
@@ -67,59 +85,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Plataforma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Plataforma" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
+              <item name="Plataforma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Plataforma" type="462c0819:PsiDirectoryNode" />
               <item name="brascch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC-master" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +102,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="C:/Django2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,9 +140,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2166" y="0" width="800" height="860" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -181,7 +152,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15198864" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15198864" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -261,13 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brascch/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/templates/website/_layouts/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -342,8 +306,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/static/website/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="462">
           <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brascch/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#65#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
