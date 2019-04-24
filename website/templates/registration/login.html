@@ -1,0 +1,17 @@
+<!-- Estendemos do template base -->
+{% extends "website/_layouts/base.html" %}
+<!-- Bloco que define o <title></title> da plataforma -->
+{% block title %}BraSCCH{% endblock %}
+
+{% block conteudo %}
+<div class="login">
+
+
+    <form method="post">
+        {% csrf_token%}
+        {{form.as_p}}
+        <button type="submit">Entrar</button>
+	</form>
+
+</div>
+{% endblock %}

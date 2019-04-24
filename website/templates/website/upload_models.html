@@ -1,0 +1,16 @@
+<!-- Estendemos do template base -->
+{% extends "website/_layouts/base.html" %}
+<!-- Bloco que define o <title></title> da plataforma -->
+{% block title %}BraSCCH{% endblock %}
+
+<!-- Bloco de conteúdo da plataforma -->
+{% block conteudo %}
+<div class="upload">
+<h1>Upload Models:</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form }}
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</div>
+{% endblock %}

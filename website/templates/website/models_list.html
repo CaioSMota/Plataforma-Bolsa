@@ -1,0 +1,35 @@
+<!-- Estendemos do template base -->
+{% extends "website/_layouts/base.html" %}
+<!-- Bloco que define o <title></title> da plataforma -->
+{% block title %}BraSCCH{% endblock %}
+
+<!-- Bloco de conteúdo da plataforma -->
+{% block conteudo %}
+<div class="lista">
+<h1>Lista Modelos:</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Nome</th>
+                <th>Descriçao</th>
+                <th>Instruçao</th>
+                <th>Modelo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for model in models %}
+                <tr>
+                    <td>{{model.title}}</td>
+                    <td>{{model.name}}</td>
+                    <td>{{model.description}}</td>
+                    <td>{{model.instructions}}</td>
+                    <td><a href="{{ model.predictor.url }}" class="btn btn-primary btn-sm">
+                        Ir ate o Modelo
+                    </a></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+  <meta charset="UTF-8">
+  <!-- Title -->
+  <meta lang="pt-br">
+  <title>
+    {% block title %}Plataforma de informação de mortalidade neonatal{% endblock %}
+  </title>
+
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" href="{% static 'website/img/BraSCCH.png' %}" type="image/png"> -->
+
+  <!-- Arquivos CSS -->
+  <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'website/css/master.css' %}"> 
+  <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
+
+  <!-- Arquivos necessários para o Bootstrap -->
+  <script src="{% static 'website/js/jquery.min.js' %}"></script>
+  <script src="{% static 'website/js/bootstrap.min.js' %}"></script>
+
+  <!-- Bloco de scripts -->
+  {% block scripts %}{% endblock %}
+
+  <!-- Scripts.js -->
+  <script src="{% static 'website/js/scripts.js' %}"></script>
+
+  <!-- Bloco de Estilos -->
+  {% block styles %}{% endblock %}
+</head>
+<body>
+  <div>
+    <div>
+      <img id="logo" src="{% static 'website/img/BraSCCH.png' %}" height='120px'>
+    </div>
+    <!-- Navegação da plataforma -->
+    <div>
+      <header>
+        <nav class="menu">
+          <ul>
+            <a href="{% url 'website:home' %}"><li>Home</li></a>
+            <a href="{% url 'website:about' %}"><li>About</li></a>
+            <a href="{% url 'website:datavisualization' %}"><li>Data Visualization</li></a>
+            <a href="{% url 'website:contact' %}"><li>Contact</li></a>
+            {% if user.is_authenticated%}
+            <a href="{% url 'website:logout' %}">Logout</a>
+            <a href="{% url 'website:models_list' %}"><li>Models</li></a>
+            <a href="{% url 'website:upload_models' %}"><li>Upload</li></a>
+            {% else %}
+            <a href = "{% url 'website:login' %}">Login</a>
+            {% endif %}
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div id="division">
+      <hr> <!-- linha para divisão de conteúdos da plataforma-->
+    </div>
+
+    {% block conteudo %}{% endblock %}
+  </div>
+</body>
+<hr> <!-- linha para divisão de conteúdos da plataforma-->
+<footer>
+  <p id="copyright"> © Lavínia Pedrosa</p>       
+</footer>
+</html>
